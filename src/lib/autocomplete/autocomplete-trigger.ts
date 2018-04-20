@@ -106,7 +106,7 @@ export function getMatAutocompleteMissingPanelError(): Error {
   selector: `input[matAutocomplete], textarea[matAutocomplete]`,
   host: {
     'role': 'combobox',
-    'autocomplete': 'off',
+    'autocomplete': 'nope',
     'aria-autocomplete': 'list',
     '[attr.aria-activedescendant]': 'activeOption?.id',
     '[attr.aria-expanded]': 'panelOpen.toString()',
